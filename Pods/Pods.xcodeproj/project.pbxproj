@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A185A59A3ED5FD538B7C94E71FEF61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		22440A77DDEEC74706BB030D02A2BF6C /* Pods-CloudDocScannerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C4916BB38309005AA26EAFC7903183 /* Pods-CloudDocScannerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A35116171CE677D8DBBE6EFFA6C259C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		68A20F652C47580089CECE0A0A964B1B /* Pods-CloudDocScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33EB24D9650323F69EB759C42D09A91F /* Pods-CloudDocScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		827D4C40098403CBDBE052F13A743A56 /* Pods-CloudDocScannerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C08EF830D42C9DD9EB17CB60196E9C6 /* Pods-CloudDocScannerTests-dummy.m */; };
+		BE3F8BFD751016CB2EB832D970734251 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		C28F19D919541CF838631E0465881D7A /* Pods-CloudDocScannerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB43A80235A3C7BD85AA23AE6DCEA3C /* Pods-CloudDocScannerUITests-dummy.m */; };
+		D411180603CDCD01738FDC7E1ECA93D0 /* Pods-CloudDocScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1481154270AA473F531E21659E6D732 /* Pods-CloudDocScanner-dummy.m */; };
+		D419F152832BAF679DF279F61AE184C4 /* Pods-CloudDocScannerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5329879C835EEAC7B77F33190121517 /* Pods-CloudDocScannerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1984E8E3A351B382AA829DB9AE3485F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD0FB5321884A5EA905ADEFAA9E21DAE;
+			remoteInfo = "Pods-CloudDocScanner";
+		};
+		3CD4B86CFDB913B7D73CACAD3A35F139 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD0FB5321884A5EA905ADEFAA9E21DAE;
+			remoteInfo = "Pods-CloudDocScanner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A6AEC2B34A2DC03A7C190451419F99F /* Pods-CloudDocScannerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudDocScannerUITests-resources.sh"; sourceTree = "<group>"; };
+		0A8DBD7637B24C865F4F827CC02716A9 /* Pods-CloudDocScannerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudDocScannerTests-frameworks.sh"; sourceTree = "<group>"; };
+		19C4916BB38309005AA26EAFC7903183 /* Pods-CloudDocScannerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CloudDocScannerUITests-umbrella.h"; sourceTree = "<group>"; };
+		1C08EF830D42C9DD9EB17CB60196E9C6 /* Pods-CloudDocScannerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CloudDocScannerTests-dummy.m"; sourceTree = "<group>"; };
+		2376BA08CEC250CE687F6B9E1DC71E6D /* Pods_CloudDocScannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CloudDocScannerTests.framework; path = "Pods-CloudDocScannerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		250A52A740A304200E52BB5AE22EEAC1 /* Pods-CloudDocScanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CloudDocScanner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DB47C839E32342464294FBEC7813153 /* Pods-CloudDocScannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudDocScannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		33EB24D9650323F69EB759C42D09A91F /* Pods-CloudDocScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CloudDocScanner-umbrella.h"; sourceTree = "<group>"; };
+		3BB43A80235A3C7BD85AA23AE6DCEA3C /* Pods-CloudDocScannerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CloudDocScannerUITests-dummy.m"; sourceTree = "<group>"; };
+		4B1A25A1C40010CE2A3A927DEA180148 /* Pods-CloudDocScannerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CloudDocScannerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54BFD2350821486FC208A87A504E7FAE /* Pods-CloudDocScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudDocScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		562CD1080B6DEFD4CB4E2AC1B03EF3C2 /* Pods-CloudDocScannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudDocScannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		592069D987A11F0524BA4238F75B75CA /* Pods-CloudDocScanner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudDocScanner-frameworks.sh"; sourceTree = "<group>"; };
+		6282C09B8981D516270B2A446CDF8D04 /* Pods-CloudDocScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudDocScanner.release.xcconfig"; sourceTree = "<group>"; };
+		637631884DA5D088CD6407AEED966DAF /* Pods-CloudDocScanner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CloudDocScanner-acknowledgements.plist"; sourceTree = "<group>"; };
+		7417ECBAB3D94243988F0AECFFED5B7B /* Pods-CloudDocScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CloudDocScanner.modulemap"; sourceTree = "<group>"; };
+		761E3C455EC59B90087C3632B14DFA14 /* Pods-CloudDocScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudDocScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C01722E1028813319706573084A0B3F /* Pods-CloudDocScannerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CloudDocScannerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		90633AE3AB391BC7716E644068F4B676 /* Pods-CloudDocScannerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CloudDocScannerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96F3F6DE5058F41B4034D498F0F9DE07 /* Pods-CloudDocScanner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudDocScanner-resources.sh"; sourceTree = "<group>"; };
+		9AC0659062BB625C75B9B29891A6A542 /* Pods-CloudDocScannerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudDocScannerTests-resources.sh"; sourceTree = "<group>"; };
+		A5329879C835EEAC7B77F33190121517 /* Pods-CloudDocScannerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CloudDocScannerTests-umbrella.h"; sourceTree = "<group>"; };
+		ADF819F6E9B6D78FB38451AC29F150D9 /* Pods-CloudDocScannerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudDocScannerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		AE85EF775F8EDF4FA2A24F238EE2C69C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4CC870F1B1B71B6532A354B39F02DD9 /* Pods_CloudDocScannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CloudDocScannerUITests.framework; path = "Pods-CloudDocScannerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7ED458F269E3C015167487F451DD64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C299543C22A72BBC789A3C18B398CA17 /* Pods-CloudDocScannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudDocScannerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5869A3D1CB588E926A0C8BDE3DA7525 /* Pods-CloudDocScannerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CloudDocScannerTests.modulemap"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DFC9C084D66C36DB6B63D7974926AE14 /* Pods-CloudDocScannerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CloudDocScannerUITests.modulemap"; sourceTree = "<group>"; };
+		E0EAEC38AF8D6ABD33D72691ADE4814A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3132AA5034ED9B56180555B133DFD2F /* Pods_CloudDocScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CloudDocScanner.framework; path = "Pods-CloudDocScanner.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1481154270AA473F531E21659E6D732 /* Pods-CloudDocScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CloudDocScanner-dummy.m"; sourceTree = "<group>"; };
+		F7C39389EB25D12981A6387B0974BFC3 /* Pods-CloudDocScannerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CloudDocScannerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6899651A44AD5177D73B3036F928E1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A185A59A3ED5FD538B7C94E71FEF61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE6CFCE623431BCE744C4C3CB037F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A35116171CE677D8DBBE6EFFA6C259C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8235D10D83950D153D92C67A8C52987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3F8BFD751016CB2EB832D970734251 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C9F4C330390C3B77A1FF00844BAE4D2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7D194B844560F0DE3B6C9E34F606781 /* Pods-CloudDocScanner */,
+				6C9E62951134F11B1E67AB6730BFCC22 /* Pods-CloudDocScannerTests */,
+				34C74A8D8B2F14780DD43FF891E80485 /* Pods-CloudDocScannerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		34C74A8D8B2F14780DD43FF891E80485 /* Pods-CloudDocScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0EAEC38AF8D6ABD33D72691ADE4814A /* Info.plist */,
+				DFC9C084D66C36DB6B63D7974926AE14 /* Pods-CloudDocScannerUITests.modulemap */,
+				4B1A25A1C40010CE2A3A927DEA180148 /* Pods-CloudDocScannerUITests-acknowledgements.markdown */,
+				7C01722E1028813319706573084A0B3F /* Pods-CloudDocScannerUITests-acknowledgements.plist */,
+				3BB43A80235A3C7BD85AA23AE6DCEA3C /* Pods-CloudDocScannerUITests-dummy.m */,
+				ADF819F6E9B6D78FB38451AC29F150D9 /* Pods-CloudDocScannerUITests-frameworks.sh */,
+				0A6AEC2B34A2DC03A7C190451419F99F /* Pods-CloudDocScannerUITests-resources.sh */,
+				19C4916BB38309005AA26EAFC7903183 /* Pods-CloudDocScannerUITests-umbrella.h */,
+				562CD1080B6DEFD4CB4E2AC1B03EF3C2 /* Pods-CloudDocScannerUITests.debug.xcconfig */,
+				C299543C22A72BBC789A3C18B398CA17 /* Pods-CloudDocScannerUITests.release.xcconfig */,
+			);
+			name = "Pods-CloudDocScannerUITests";
+			path = "Target Support Files/Pods-CloudDocScannerUITests";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6C9E62951134F11B1E67AB6730BFCC22 /* Pods-CloudDocScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF7ED458F269E3C015167487F451DD64 /* Info.plist */,
+				C5869A3D1CB588E926A0C8BDE3DA7525 /* Pods-CloudDocScannerTests.modulemap */,
+				F7C39389EB25D12981A6387B0974BFC3 /* Pods-CloudDocScannerTests-acknowledgements.markdown */,
+				90633AE3AB391BC7716E644068F4B676 /* Pods-CloudDocScannerTests-acknowledgements.plist */,
+				1C08EF830D42C9DD9EB17CB60196E9C6 /* Pods-CloudDocScannerTests-dummy.m */,
+				0A8DBD7637B24C865F4F827CC02716A9 /* Pods-CloudDocScannerTests-frameworks.sh */,
+				9AC0659062BB625C75B9B29891A6A542 /* Pods-CloudDocScannerTests-resources.sh */,
+				A5329879C835EEAC7B77F33190121517 /* Pods-CloudDocScannerTests-umbrella.h */,
+				761E3C455EC59B90087C3632B14DFA14 /* Pods-CloudDocScannerTests.debug.xcconfig */,
+				2DB47C839E32342464294FBEC7813153 /* Pods-CloudDocScannerTests.release.xcconfig */,
+			);
+			name = "Pods-CloudDocScannerTests";
+			path = "Target Support Files/Pods-CloudDocScannerTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D9766751F0669F739EE95FD4D595CA7E /* Products */,
+				0C9F4C330390C3B77A1FF00844BAE4D2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A7D194B844560F0DE3B6C9E34F606781 /* Pods-CloudDocScanner */ = {
+			isa = PBXGroup;
+			children = (
+				AE85EF775F8EDF4FA2A24F238EE2C69C /* Info.plist */,
+				7417ECBAB3D94243988F0AECFFED5B7B /* Pods-CloudDocScanner.modulemap */,
+				250A52A740A304200E52BB5AE22EEAC1 /* Pods-CloudDocScanner-acknowledgements.markdown */,
+				637631884DA5D088CD6407AEED966DAF /* Pods-CloudDocScanner-acknowledgements.plist */,
+				F1481154270AA473F531E21659E6D732 /* Pods-CloudDocScanner-dummy.m */,
+				592069D987A11F0524BA4238F75B75CA /* Pods-CloudDocScanner-frameworks.sh */,
+				96F3F6DE5058F41B4034D498F0F9DE07 /* Pods-CloudDocScanner-resources.sh */,
+				33EB24D9650323F69EB759C42D09A91F /* Pods-CloudDocScanner-umbrella.h */,
+				54BFD2350821486FC208A87A504E7FAE /* Pods-CloudDocScanner.debug.xcconfig */,
+				6282C09B8981D516270B2A446CDF8D04 /* Pods-CloudDocScanner.release.xcconfig */,
+			);
+			name = "Pods-CloudDocScanner";
+			path = "Target Support Files/Pods-CloudDocScanner";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9766751F0669F739EE95FD4D595CA7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3132AA5034ED9B56180555B133DFD2F /* Pods_CloudDocScanner.framework */,
+				2376BA08CEC250CE687F6B9E1DC71E6D /* Pods_CloudDocScannerTests.framework */,
+				B4CC870F1B1B71B6532A354B39F02DD9 /* Pods_CloudDocScannerUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		357F7134F539CBAD2EFAEFA023E46E56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A20F652C47580089CECE0A0A964B1B /* Pods-CloudDocScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA8108C7440E3070BDCA1C99CD4F124 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22440A77DDEEC74706BB030D02A2BF6C /* Pods-CloudDocScannerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BE895EF20D2CD906DFC0FB00B08C55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D419F152832BAF679DF279F61AE184C4 /* Pods-CloudDocScannerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07B4E57A5676875DE0434890BD581CE0 /* Pods-CloudDocScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D7CE30B62679CA3DC16CE5A772ECFF /* Build configuration list for PBXNativeTarget "Pods-CloudDocScannerUITests" */;
+			buildPhases = (
+				8FA8108C7440E3070BDCA1C99CD4F124 /* Headers */,
+				7D2C166EB5904CCC911A803198A72165 /* Sources */,
+				BAE6CFCE623431BCE744C4C3CB037F08 /* Frameworks */,
+				0E6704F2D905545769453807C1D64C52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E717F05816170E8302E424C5A42998FC /* PBXTargetDependency */,
+			);
+			name = "Pods-CloudDocScannerUITests";
+			productName = "Pods-CloudDocScannerUITests";
+			productReference = B4CC870F1B1B71B6532A354B39F02DD9 /* Pods_CloudDocScannerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		66AB32AF13FA39856661090F4CF07DD7 /* Pods-CloudDocScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA7F4A58DE81757A8897EB2082A63958 /* Build configuration list for PBXNativeTarget "Pods-CloudDocScannerTests" */;
+			buildPhases = (
+				E4BE895EF20D2CD906DFC0FB00B08C55 /* Headers */,
+				B3B734347A6FB85DECAE58E3FEC486E7 /* Sources */,
+				6899651A44AD5177D73B3036F928E1EA /* Frameworks */,
+				7911E84EBF8D78A7449F3FABC9B2F197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55ED357CB2F5DB81C2B4CF0E738AB55C /* PBXTargetDependency */,
+			);
+			name = "Pods-CloudDocScannerTests";
+			productName = "Pods-CloudDocScannerTests";
+			productReference = 2376BA08CEC250CE687F6B9E1DC71E6D /* Pods_CloudDocScannerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD0FB5321884A5EA905ADEFAA9E21DAE /* Pods-CloudDocScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B547FCFE7E9E14C1E5B2254823DE5B68 /* Build configuration list for PBXNativeTarget "Pods-CloudDocScanner" */;
+			buildPhases = (
+				357F7134F539CBAD2EFAEFA023E46E56 /* Headers */,
+				A05A3BB2625E2F54245676BDBD78D4AA /* Sources */,
+				C8235D10D83950D153D92C67A8C52987 /* Frameworks */,
+				3E5567D3819C435A6AC6E64F1793C990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CloudDocScanner";
+			productName = "Pods-CloudDocScanner";
+			productReference = E3132AA5034ED9B56180555B133DFD2F /* Pods_CloudDocScanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D9766751F0669F739EE95FD4D595CA7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD0FB5321884A5EA905ADEFAA9E21DAE /* Pods-CloudDocScanner */,
+				66AB32AF13FA39856661090F4CF07DD7 /* Pods-CloudDocScannerTests */,
+				07B4E57A5676875DE0434890BD581CE0 /* Pods-CloudDocScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E6704F2D905545769453807C1D64C52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E5567D3819C435A6AC6E64F1793C990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7911E84EBF8D78A7449F3FABC9B2F197 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D2C166EB5904CCC911A803198A72165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28F19D919541CF838631E0465881D7A /* Pods-CloudDocScannerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05A3BB2625E2F54245676BDBD78D4AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D411180603CDCD01738FDC7E1ECA93D0 /* Pods-CloudDocScanner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B734347A6FB85DECAE58E3FEC486E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827D4C40098403CBDBE052F13A743A56 /* Pods-CloudDocScannerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55ED357CB2F5DB81C2B4CF0E738AB55C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CloudDocScanner";
+			target = CD0FB5321884A5EA905ADEFAA9E21DAE /* Pods-CloudDocScanner */;
+			targetProxy = 1984E8E3A351B382AA829DB9AE3485F0 /* PBXContainerItemProxy */;
+		};
+		E717F05816170E8302E424C5A42998FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CloudDocScanner";
+			target = CD0FB5321884A5EA905ADEFAA9E21DAE /* Pods-CloudDocScanner */;
+			targetProxy = 3CD4B86CFDB913B7D73CACAD3A35F139 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		13D30019B6B739D65E66EF8C905C16AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 761E3C455EC59B90087C3632B14DFA14 /* Pods-CloudDocScannerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CloudDocScannerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CloudDocScannerTests/Pods-CloudDocScannerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54E54F5D998D5CA0389C8FD9BAB090BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 562CD1080B6DEFD4CB4E2AC1B03EF3C2 /* Pods-CloudDocScannerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CloudDocScannerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CloudDocScannerUITests/Pods-CloudDocScannerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		679C88B98B2F5881F0D19587342AA3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6282C09B8981D516270B2A446CDF8D04 /* Pods-CloudDocScanner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CloudDocScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CloudDocScanner/Pods-CloudDocScanner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7934FFF3AE4DFD2CF81CE5F57E947CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54BFD2350821486FC208A87A504E7FAE /* Pods-CloudDocScanner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CloudDocScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CloudDocScanner/Pods-CloudDocScanner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8000995DA02063BF3777393CD52061DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C475E55B5B46E28AB057F6E9956D3947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB47C839E32342464294FBEC7813153 /* Pods-CloudDocScannerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CloudDocScannerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CloudDocScannerTests/Pods-CloudDocScannerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4D5E4B21799A24B3E40273B1788252C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C299543C22A72BBC789A3C18B398CA17 /* Pods-CloudDocScannerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CloudDocScannerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CloudDocScannerUITests/Pods-CloudDocScannerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20D7CE30B62679CA3DC16CE5A772ECFF /* Build configuration list for PBXNativeTarget "Pods-CloudDocScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54E54F5D998D5CA0389C8FD9BAB090BD /* Debug */,
+				E4D5E4B21799A24B3E40273B1788252C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B91655AF95B1F49159CD8085CD89 /* Debug */,
+				8000995DA02063BF3777393CD52061DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B547FCFE7E9E14C1E5B2254823DE5B68 /* Build configuration list for PBXNativeTarget "Pods-CloudDocScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7934FFF3AE4DFD2CF81CE5F57E947CA9 /* Debug */,
+				679C88B98B2F5881F0D19587342AA3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA7F4A58DE81757A8897EB2082A63958 /* Build configuration list for PBXNativeTarget "Pods-CloudDocScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D30019B6B739D65E66EF8C905C16AB /* Debug */,
+				C475E55B5B46E28AB057F6E9956D3947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

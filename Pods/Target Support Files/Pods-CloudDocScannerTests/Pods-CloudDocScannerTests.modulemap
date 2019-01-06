@@ -1,0 +1,6 @@
+framework module Pods_CloudDocScannerTests {
+  umbrella header "Pods-CloudDocScannerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
