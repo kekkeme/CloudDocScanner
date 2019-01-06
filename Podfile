@@ -7,7 +7,7 @@ target 'CloudDocScanner' do
 
   # Pods for CloudDocScanner
 
-
+  pod 'SwipeView', '~> 1.3.2'
 	
 
 

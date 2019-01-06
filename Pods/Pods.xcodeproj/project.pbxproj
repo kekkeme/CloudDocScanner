@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00800DEEABBC0C1038395FE267C99D75 /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6732901F4757B952399D2AABF4A874 /* SwipeView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		01A185A59A3ED5FD538B7C94E71FEF61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		22440A77DDEEC74706BB030D02A2BF6C /* Pods-CloudDocScannerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C4916BB38309005AA26EAFC7903183 /* Pods-CloudDocScannerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C0ACFA73B035A95FA6BFDA3020187A6 /* Pods-CloudDocScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1481154270AA473F531E21659E6D732 /* Pods-CloudDocScanner-dummy.m */; };
+		3B6896FB34DFC8F967D7B9CDBAFEC898 /* SwipeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3922B38FA068FA5A837C4359DCBDCA9D /* SwipeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		519E99D3A8178528069C3920D068681C /* SwipeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2288DACF2FC894F96EF93750B3384875 /* SwipeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A35116171CE677D8DBBE6EFFA6C259C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		68A20F652C47580089CECE0A0A964B1B /* Pods-CloudDocScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33EB24D9650323F69EB759C42D09A91F /* Pods-CloudDocScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6656A2B32F03B00C861ED0B2C7B00722 /* Pods-CloudDocScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33EB24D9650323F69EB759C42D09A91F /* Pods-CloudDocScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		827D4C40098403CBDBE052F13A743A56 /* Pods-CloudDocScannerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C08EF830D42C9DD9EB17CB60196E9C6 /* Pods-CloudDocScannerTests-dummy.m */; };
-		BE3F8BFD751016CB2EB832D970734251 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		9709837D7999F2AA3732169E6CC6AE14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		B5EF72262128BD2AFA6E394AC889AEA4 /* SwipeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E08C4EE6F99FADC26E29095DB0FB43 /* SwipeView-dummy.m */; };
 		C28F19D919541CF838631E0465881D7A /* Pods-CloudDocScannerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB43A80235A3C7BD85AA23AE6DCEA3C /* Pods-CloudDocScannerUITests-dummy.m */; };
-		D411180603CDCD01738FDC7E1ECA93D0 /* Pods-CloudDocScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1481154270AA473F531E21659E6D732 /* Pods-CloudDocScanner-dummy.m */; };
 		D419F152832BAF679DF279F61AE184C4 /* Pods-CloudDocScannerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5329879C835EEAC7B77F33190121517 /* Pods-CloudDocScannerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F096ECC7D45954A1616C754C78CD7C62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,57 +28,89 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD0FB5321884A5EA905ADEFAA9E21DAE;
+			remoteGlobalIDString = B8A33255C7F3B4486FCA4D102BCC9EDD;
 			remoteInfo = "Pods-CloudDocScanner";
 		};
 		3CD4B86CFDB913B7D73CACAD3A35F139 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD0FB5321884A5EA905ADEFAA9E21DAE;
+			remoteGlobalIDString = B8A33255C7F3B4486FCA4D102BCC9EDD;
 			remoteInfo = "Pods-CloudDocScanner";
+		};
+		5D1557AA84E8DDFF149A4800CC69E145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5528941BA2E03762BE7BD92A81F760D6;
+			remoteInfo = SwipeView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0A6AEC2B34A2DC03A7C190451419F99F /* Pods-CloudDocScannerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudDocScannerUITests-resources.sh"; sourceTree = "<group>"; };
 		0A8DBD7637B24C865F4F827CC02716A9 /* Pods-CloudDocScannerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudDocScannerTests-frameworks.sh"; sourceTree = "<group>"; };
+		1980551808005D69A9B81380C3D8D437 /* SwipeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwipeView.xcconfig; sourceTree = "<group>"; };
 		19C4916BB38309005AA26EAFC7903183 /* Pods-CloudDocScannerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CloudDocScannerUITests-umbrella.h"; sourceTree = "<group>"; };
 		1C08EF830D42C9DD9EB17CB60196E9C6 /* Pods-CloudDocScannerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CloudDocScannerTests-dummy.m"; sourceTree = "<group>"; };
-		2376BA08CEC250CE687F6B9E1DC71E6D /* Pods_CloudDocScannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CloudDocScannerTests.framework; path = "Pods-CloudDocScannerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20848F1C8877230B7FDA4F0E2AD51FF5 /* SwipeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwipeView.modulemap; sourceTree = "<group>"; };
+		2288DACF2FC894F96EF93750B3384875 /* SwipeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeView-umbrella.h"; sourceTree = "<group>"; };
 		250A52A740A304200E52BB5AE22EEAC1 /* Pods-CloudDocScanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CloudDocScanner-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2DB47C839E32342464294FBEC7813153 /* Pods-CloudDocScannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudDocScannerTests.release.xcconfig"; sourceTree = "<group>"; };
 		33EB24D9650323F69EB759C42D09A91F /* Pods-CloudDocScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CloudDocScanner-umbrella.h"; sourceTree = "<group>"; };
+		3922B38FA068FA5A837C4359DCBDCA9D /* SwipeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwipeView.h; path = SwipeView/SwipeView.h; sourceTree = "<group>"; };
 		3BB43A80235A3C7BD85AA23AE6DCEA3C /* Pods-CloudDocScannerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CloudDocScannerUITests-dummy.m"; sourceTree = "<group>"; };
+		40E5E7BEAC7A68321EB97B92091F5F29 /* SwipeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwipeView-prefix.pch"; sourceTree = "<group>"; };
 		4B1A25A1C40010CE2A3A927DEA180148 /* Pods-CloudDocScannerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CloudDocScannerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		54BFD2350821486FC208A87A504E7FAE /* Pods-CloudDocScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudDocScanner.debug.xcconfig"; sourceTree = "<group>"; };
 		562CD1080B6DEFD4CB4E2AC1B03EF3C2 /* Pods-CloudDocScannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudDocScannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		56C9582307B51175435A885AA629C76B /* Pods_CloudDocScannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CloudDocScannerTests.framework; path = "Pods-CloudDocScannerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		592069D987A11F0524BA4238F75B75CA /* Pods-CloudDocScanner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudDocScanner-frameworks.sh"; sourceTree = "<group>"; };
 		6282C09B8981D516270B2A446CDF8D04 /* Pods-CloudDocScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudDocScanner.release.xcconfig"; sourceTree = "<group>"; };
 		637631884DA5D088CD6407AEED966DAF /* Pods-CloudDocScanner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CloudDocScanner-acknowledgements.plist"; sourceTree = "<group>"; };
+		67E08C4EE6F99FADC26E29095DB0FB43 /* SwipeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwipeView-dummy.m"; sourceTree = "<group>"; };
 		7417ECBAB3D94243988F0AECFFED5B7B /* Pods-CloudDocScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CloudDocScanner.modulemap"; sourceTree = "<group>"; };
 		761E3C455EC59B90087C3632B14DFA14 /* Pods-CloudDocScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudDocScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A6732901F4757B952399D2AABF4A874 /* SwipeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwipeView.m; path = SwipeView/SwipeView.m; sourceTree = "<group>"; };
 		7C01722E1028813319706573084A0B3F /* Pods-CloudDocScannerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CloudDocScannerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		90633AE3AB391BC7716E644068F4B676 /* Pods-CloudDocScannerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CloudDocScannerTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96F3F6DE5058F41B4034D498F0F9DE07 /* Pods-CloudDocScanner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudDocScanner-resources.sh"; sourceTree = "<group>"; };
 		9AC0659062BB625C75B9B29891A6A542 /* Pods-CloudDocScannerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudDocScannerTests-resources.sh"; sourceTree = "<group>"; };
+		A1515D69CA11B4B5C60DEE8839BC8754 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5329879C835EEAC7B77F33190121517 /* Pods-CloudDocScannerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CloudDocScannerTests-umbrella.h"; sourceTree = "<group>"; };
 		ADF819F6E9B6D78FB38451AC29F150D9 /* Pods-CloudDocScannerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CloudDocScannerUITests-frameworks.sh"; sourceTree = "<group>"; };
 		AE85EF775F8EDF4FA2A24F238EE2C69C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4CC870F1B1B71B6532A354B39F02DD9 /* Pods_CloudDocScannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CloudDocScannerUITests.framework; path = "Pods-CloudDocScannerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7ED458F269E3C015167487F451DD64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C299543C22A72BBC789A3C18B398CA17 /* Pods-CloudDocScannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CloudDocScannerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C5869A3D1CB588E926A0C8BDE3DA7525 /* Pods-CloudDocScannerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CloudDocScannerTests.modulemap"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA75ABADC43D9E3894AB28BA5560B835 /* Pods_CloudDocScannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CloudDocScannerUITests.framework; path = "Pods-CloudDocScannerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3BA14B1B19267BE237BE133B5FA3E8 /* Pods_CloudDocScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CloudDocScanner.framework; path = "Pods-CloudDocScanner.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC9C084D66C36DB6B63D7974926AE14 /* Pods-CloudDocScannerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CloudDocScannerUITests.modulemap"; sourceTree = "<group>"; };
 		E0EAEC38AF8D6ABD33D72691ADE4814A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3132AA5034ED9B56180555B133DFD2F /* Pods_CloudDocScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CloudDocScanner.framework; path = "Pods-CloudDocScanner.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED73CB30790B95ED2CA28A4809D17129 /* SwipeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwipeView.framework; path = SwipeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1481154270AA473F531E21659E6D732 /* Pods-CloudDocScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CloudDocScanner-dummy.m"; sourceTree = "<group>"; };
 		F7C39389EB25D12981A6387B0974BFC3 /* Pods-CloudDocScannerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CloudDocScannerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		213B6944C8CA86E5224DB21FFA9112B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9709837D7999F2AA3732169E6CC6AE14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DBDD3EB5CE455852806FB6E194BEA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F096ECC7D45954A1616C754C78CD7C62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6899651A44AD5177D73B3036F928E1EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -87,14 +124,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A35116171CE677D8DBBE6EFFA6C259C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8235D10D83950D153D92C67A8C52987 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE3F8BFD751016CB2EB832D970734251 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +166,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		472241992E449E8507E56814CF1BAA4A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1515D69CA11B4B5C60DEE8839BC8754 /* Info.plist */,
+				20848F1C8877230B7FDA4F0E2AD51FF5 /* SwipeView.modulemap */,
+				1980551808005D69A9B81380C3D8D437 /* SwipeView.xcconfig */,
+				67E08C4EE6F99FADC26E29095DB0FB43 /* SwipeView-dummy.m */,
+				40E5E7BEAC7A68321EB97B92091F5F29 /* SwipeView-prefix.pch */,
+				2288DACF2FC894F96EF93750B3384875 /* SwipeView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwipeView";
+			sourceTree = "<group>";
+		};
+		58004EF3F1F2481A89129A8A19DFC552 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC3BA14B1B19267BE237BE133B5FA3E8 /* Pods_CloudDocScanner.framework */,
+				56C9582307B51175435A885AA629C76B /* Pods_CloudDocScannerTests.framework */,
+				DA75ABADC43D9E3894AB28BA5560B835 /* Pods_CloudDocScannerUITests.framework */,
+				ED73CB30790B95ED2CA28A4809D17129 /* SwipeView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		6C9E62951134F11B1E67AB6730BFCC22 /* Pods-CloudDocScannerTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,12 +209,24 @@
 			path = "Target Support Files/Pods-CloudDocScannerTests";
 			sourceTree = "<group>";
 		};
+		73669C29EEE54B916A3A4ED3F8D2AD0A /* SwipeView */ = {
+			isa = PBXGroup;
+			children = (
+				3922B38FA068FA5A837C4359DCBDCA9D /* SwipeView.h */,
+				7A6732901F4757B952399D2AABF4A874 /* SwipeView.m */,
+				472241992E449E8507E56814CF1BAA4A /* Support Files */,
+			);
+			name = SwipeView;
+			path = SwipeView;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D9766751F0669F739EE95FD4D595CA7E /* Products */,
+				C92119BEDF6117390A88F72E7764B226 /* Pods */,
+				58004EF3F1F2481A89129A8A19DFC552 /* Products */,
 				0C9F4C330390C3B77A1FF00844BAE4D2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -191,24 +257,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D9766751F0669F739EE95FD4D595CA7E /* Products */ = {
+		C92119BEDF6117390A88F72E7764B226 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E3132AA5034ED9B56180555B133DFD2F /* Pods_CloudDocScanner.framework */,
-				2376BA08CEC250CE687F6B9E1DC71E6D /* Pods_CloudDocScannerTests.framework */,
-				B4CC870F1B1B71B6532A354B39F02DD9 /* Pods_CloudDocScannerUITests.framework */,
+				73669C29EEE54B916A3A4ED3F8D2AD0A /* SwipeView */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		357F7134F539CBAD2EFAEFA023E46E56 /* Headers */ = {
+		228A92C732ED0B8D5DFC91FECC0D9FD8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68A20F652C47580089CECE0A0A964B1B /* Pods-CloudDocScanner-umbrella.h in Headers */,
+				6656A2B32F03B00C861ED0B2C7B00722 /* Pods-CloudDocScanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BB5CD8FF1E12423F195E481E87B596 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				519E99D3A8178528069C3920D068681C /* SwipeView-umbrella.h in Headers */,
+				3B6896FB34DFC8F967D7B9CDBAFEC898 /* SwipeView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +320,25 @@
 			);
 			name = "Pods-CloudDocScannerUITests";
 			productName = "Pods-CloudDocScannerUITests";
-			productReference = B4CC870F1B1B71B6532A354B39F02DD9 /* Pods_CloudDocScannerUITests.framework */;
+			productReference = DA75ABADC43D9E3894AB28BA5560B835 /* Pods_CloudDocScannerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5528941BA2E03762BE7BD92A81F760D6 /* SwipeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E965E048FF48AFACFFA9AAD0ACE358 /* Build configuration list for PBXNativeTarget "SwipeView" */;
+			buildPhases = (
+				30BB5CD8FF1E12423F195E481E87B596 /* Headers */,
+				37ABF22C01593E3A24129E0C437834DE /* Sources */,
+				57DBDD3EB5CE455852806FB6E194BEA6 /* Frameworks */,
+				1486EC170077CC58259FC7FA6CC260D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeView;
+			productName = SwipeView;
+			productReference = ED73CB30790B95ED2CA28A4809D17129 /* SwipeView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		66AB32AF13FA39856661090F4CF07DD7 /* Pods-CloudDocScannerTests */ = {
@@ -266,25 +357,26 @@
 			);
 			name = "Pods-CloudDocScannerTests";
 			productName = "Pods-CloudDocScannerTests";
-			productReference = 2376BA08CEC250CE687F6B9E1DC71E6D /* Pods_CloudDocScannerTests.framework */;
+			productReference = 56C9582307B51175435A885AA629C76B /* Pods_CloudDocScannerTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CD0FB5321884A5EA905ADEFAA9E21DAE /* Pods-CloudDocScanner */ = {
+		B8A33255C7F3B4486FCA4D102BCC9EDD /* Pods-CloudDocScanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B547FCFE7E9E14C1E5B2254823DE5B68 /* Build configuration list for PBXNativeTarget "Pods-CloudDocScanner" */;
+			buildConfigurationList = 55A6197BBEA3E6369CF1CA6524832F9C /* Build configuration list for PBXNativeTarget "Pods-CloudDocScanner" */;
 			buildPhases = (
-				357F7134F539CBAD2EFAEFA023E46E56 /* Headers */,
-				A05A3BB2625E2F54245676BDBD78D4AA /* Sources */,
-				C8235D10D83950D153D92C67A8C52987 /* Frameworks */,
-				3E5567D3819C435A6AC6E64F1793C990 /* Resources */,
+				228A92C732ED0B8D5DFC91FECC0D9FD8 /* Headers */,
+				4E1E3E08D0B306C1268DFB095101202F /* Sources */,
+				213B6944C8CA86E5224DB21FFA9112B4 /* Frameworks */,
+				FD292FCD34AC99CF1E920DDFA712C754 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				37E0C0775DCAD8A2FE05C664BC3063B6 /* PBXTargetDependency */,
 			);
 			name = "Pods-CloudDocScanner";
 			productName = "Pods-CloudDocScanner";
-			productReference = E3132AA5034ED9B56180555B133DFD2F /* Pods_CloudDocScanner.framework */;
+			productReference = DC3BA14B1B19267BE237BE133B5FA3E8 /* Pods_CloudDocScanner.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -304,13 +396,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D9766751F0669F739EE95FD4D595CA7E /* Products */;
+			productRefGroup = 58004EF3F1F2481A89129A8A19DFC552 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD0FB5321884A5EA905ADEFAA9E21DAE /* Pods-CloudDocScanner */,
+				B8A33255C7F3B4486FCA4D102BCC9EDD /* Pods-CloudDocScanner */,
 				66AB32AF13FA39856661090F4CF07DD7 /* Pods-CloudDocScannerTests */,
 				07B4E57A5676875DE0434890BD581CE0 /* Pods-CloudDocScannerUITests */,
+				5528941BA2E03762BE7BD92A81F760D6 /* SwipeView */,
 			);
 		};
 /* End PBXProject section */
@@ -323,7 +416,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E5567D3819C435A6AC6E64F1793C990 /* Resources */ = {
+		1486EC170077CC58259FC7FA6CC260D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -337,22 +430,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD292FCD34AC99CF1E920DDFA712C754 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		37ABF22C01593E3A24129E0C437834DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EF72262128BD2AFA6E394AC889AEA4 /* SwipeView-dummy.m in Sources */,
+				00800DEEABBC0C1038395FE267C99D75 /* SwipeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E1E3E08D0B306C1268DFB095101202F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0ACFA73B035A95FA6BFDA3020187A6 /* Pods-CloudDocScanner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7D2C166EB5904CCC911A803198A72165 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C28F19D919541CF838631E0465881D7A /* Pods-CloudDocScannerUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A05A3BB2625E2F54245676BDBD78D4AA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D411180603CDCD01738FDC7E1ECA93D0 /* Pods-CloudDocScanner-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,16 +476,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		37E0C0775DCAD8A2FE05C664BC3063B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwipeView;
+			target = 5528941BA2E03762BE7BD92A81F760D6 /* SwipeView */;
+			targetProxy = 5D1557AA84E8DDFF149A4800CC69E145 /* PBXContainerItemProxy */;
+		};
 		55ED357CB2F5DB81C2B4CF0E738AB55C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CloudDocScanner";
-			target = CD0FB5321884A5EA905ADEFAA9E21DAE /* Pods-CloudDocScanner */;
+			target = B8A33255C7F3B4486FCA4D102BCC9EDD /* Pods-CloudDocScanner */;
 			targetProxy = 1984E8E3A351B382AA829DB9AE3485F0 /* PBXContainerItemProxy */;
 		};
 		E717F05816170E8302E424C5A42998FC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CloudDocScanner";
-			target = CD0FB5321884A5EA905ADEFAA9E21DAE /* Pods-CloudDocScanner */;
+			target = B8A33255C7F3B4486FCA4D102BCC9EDD /* Pods-CloudDocScanner */;
 			targetProxy = 3CD4B86CFDB913B7D73CACAD3A35F139 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -486,12 +601,10 @@
 			};
 			name = Debug;
 		};
-		54E54F5D998D5CA0389C8FD9BAB090BD /* Debug */ = {
+		1D9D70D5F4B6290B4DBA1220520E88D5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 562CD1080B6DEFD4CB4E2AC1B03EF3C2 /* Pods-CloudDocScannerUITests.debug.xcconfig */;
+			baseConfigurationReference = 1980551808005D69A9B81380C3D8D437 /* SwipeView.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -501,30 +614,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CloudDocScannerUITests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeView/SwipeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CloudDocScannerUITests/Pods-CloudDocScannerUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/SwipeView/SwipeView.modulemap";
+				PRODUCT_MODULE_NAME = SwipeView;
+				PRODUCT_NAME = SwipeView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		679C88B98B2F5881F0D19587342AA3B4 /* Release */ = {
+		46D1F2C11305E37EA2E8C156648C7D00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6282C09B8981D516270B2A446CDF8D04 /* Pods-CloudDocScanner.release.xcconfig */;
 			buildSettings = {
@@ -563,7 +676,80 @@
 			};
 			name = Release;
 		};
-		7934FFF3AE4DFD2CF81CE5F57E947CA9 /* Debug */ = {
+		54E54F5D998D5CA0389C8FD9BAB090BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 562CD1080B6DEFD4CB4E2AC1B03EF3C2 /* Pods-CloudDocScannerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CloudDocScannerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CloudDocScannerUITests/Pods-CloudDocScannerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5886D5735B60A800604E7B2DAC87AC46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1980551808005D69A9B81380C3D8D437 /* SwipeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwipeView/SwipeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwipeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwipeView/SwipeView.modulemap";
+				PRODUCT_MODULE_NAME = SwipeView;
+				PRODUCT_NAME = SwipeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D597B7221AB90AB2BA03CBD04936617 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 54BFD2350821486FC208A87A504E7FAE /* Pods-CloudDocScanner.debug.xcconfig */;
 			buildSettings = {
@@ -762,11 +948,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B547FCFE7E9E14C1E5B2254823DE5B68 /* Build configuration list for PBXNativeTarget "Pods-CloudDocScanner" */ = {
+		55A6197BBEA3E6369CF1CA6524832F9C /* Build configuration list for PBXNativeTarget "Pods-CloudDocScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7934FFF3AE4DFD2CF81CE5F57E947CA9 /* Debug */,
-				679C88B98B2F5881F0D19587342AA3B4 /* Release */,
+				6D597B7221AB90AB2BA03CBD04936617 /* Debug */,
+				46D1F2C11305E37EA2E8C156648C7D00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E965E048FF48AFACFFA9AAD0ACE358 /* Build configuration list for PBXNativeTarget "SwipeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5886D5735B60A800604E7B2DAC87AC46 /* Debug */,
+				1D9D70D5F4B6290B4DBA1220520E88D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
