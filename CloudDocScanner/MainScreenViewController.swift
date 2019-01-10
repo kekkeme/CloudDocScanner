@@ -70,6 +70,7 @@ class MainScreenViewController: UIViewController, UITableViewDelegate, UITableVi
     @IBOutlet weak var recentTableView: UITableView!
     @IBOutlet weak var camera: UIButton!
     @IBOutlet weak var allScansTableView: UITableView!
+    @IBOutlet weak var settings: UIBarButtonItem!
     var recents = ["PDF", "PDF2", "PDF3", "PDF4"]
     var all = ["1", "2", "3", "4", "5"]
     
@@ -91,7 +92,12 @@ class MainScreenViewController: UIViewController, UITableViewDelegate, UITableVi
         greenView.isHidden = false
     }
     
+    @IBAction func settingsPushed(_ sender: Any) {
+        
+        
+    }
     
     
 }
+
 

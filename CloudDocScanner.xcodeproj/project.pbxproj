@@ -19,6 +19,9 @@
 		383FC94D21E20B0C007B6721 /* SettingsScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FC94C21E20B0C007B6721 /* SettingsScreenViewController.swift */; };
 		383FC94F21E22192007B6721 /* RecentTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FC94E21E22192007B6721 /* RecentTableView.swift */; };
 		383FC95121E22473007B6721 /* AllScanTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383FC95021E22473007B6721 /* AllScanTableView.swift */; };
+		38684FBA21E78F0300AE918C /* SettingsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38684FB921E78F0300AE918C /* SettingsTableView.swift */; };
+		3886C48D21E6850B009B52C5 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3886C48C21E6850B009B52C5 /* OpenSans-Regular.ttf */; };
+		3886C48F21E76451009B52C5 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886C48E21E76451009B52C5 /* PreferencesViewController.swift */; };
 		940FDF4DADE22562AAEDF1B8 /* Pods_CloudDocScannerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98685AB2F769E1568D5C78E5 /* Pods_CloudDocScannerUITests.framework */; };
 		FAB4E2C5DB026222257CB906 /* Pods_CloudDocScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35D2B0B79B6F302A0FB4E0C /* Pods_CloudDocScanner.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +62,9 @@
 		383FC94C21E20B0C007B6721 /* SettingsScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreenViewController.swift; sourceTree = "<group>"; };
 		383FC94E21E22192007B6721 /* RecentTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTableView.swift; sourceTree = "<group>"; };
 		383FC95021E22473007B6721 /* AllScanTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllScanTableView.swift; sourceTree = "<group>"; };
+		38684FB921E78F0300AE918C /* SettingsTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableView.swift; sourceTree = "<group>"; };
+		3886C48C21E6850B009B52C5 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		3886C48E21E76451009B52C5 /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
 		3E1E4614B674358200DCD94B /* Pods-CloudDocScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudDocScanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudDocScanner/Pods-CloudDocScanner.debug.xcconfig"; sourceTree = "<group>"; };
 		621FE400963687CBD435DC54 /* Pods-CloudDocScannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudDocScannerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudDocScannerUITests/Pods-CloudDocScannerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8549395FAADAEF8FAF2BCD8D /* Pods-CloudDocScannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudDocScannerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudDocScannerTests/Pods-CloudDocScannerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,10 +138,13 @@
 		2E7C63A821E1ED5200001221 /* CloudDocScanner */ = {
 			isa = PBXGroup;
 			children = (
+				3886C48B21E68496009B52C5 /* Fonts */,
 				2E7C63A921E1ED5200001221 /* AppDelegate.swift */,
 				2E7C63AB21E1ED5200001221 /* ViewController.swift */,
 				2E7C63AD21E1ED5200001221 /* Main.storyboard */,
 				383FC94C21E20B0C007B6721 /* SettingsScreenViewController.swift */,
+				38684FB921E78F0300AE918C /* SettingsTableView.swift */,
+				3886C48E21E76451009B52C5 /* PreferencesViewController.swift */,
 				2E7C63B021E1ED5400001221 /* Assets.xcassets */,
 				2E7C63B221E1ED5400001221 /* LaunchScreen.storyboard */,
 				2E7C63B521E1ED5400001221 /* Info.plist */,
@@ -175,6 +184,14 @@
 				621FE400963687CBD435DC54 /* Pods-CloudDocScannerUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		3886C48B21E68496009B52C5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3886C48C21E6850B009B52C5 /* OpenSans-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +303,7 @@
 			files = (
 				2E7C63B421E1ED5400001221 /* LaunchScreen.storyboard in Resources */,
 				2E7C63B121E1ED5400001221 /* Assets.xcassets in Resources */,
+				3886C48D21E6850B009B52C5 /* OpenSans-Regular.ttf in Resources */,
 				2E7C63AF21E1ED5200001221 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +403,8 @@
 				2E7C63AA21E1ED5200001221 /* AppDelegate.swift in Sources */,
 				383FC94F21E22192007B6721 /* RecentTableView.swift in Sources */,
 				383FC95121E22473007B6721 /* AllScanTableView.swift in Sources */,
+				3886C48F21E76451009B52C5 /* PreferencesViewController.swift in Sources */,
+				38684FBA21E78F0300AE918C /* SettingsTableView.swift in Sources */,
 				383FC94B21E1FE55007B6721 /* MainScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,7 +583,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HAUJ6CS5ZK;
+				DEVELOPMENT_TEAM = 2C486V6N7S;
 				INFOPLIST_FILE = CloudDocScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -584,7 +604,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HAUJ6CS5ZK;
+				DEVELOPMENT_TEAM = 2C486V6N7S;
 				INFOPLIST_FILE = CloudDocScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
