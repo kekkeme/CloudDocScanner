@@ -8,28 +8,21 @@
 
 import UIKit
 
-class SettingsViewController: UITableViewController {
-    
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    
-        return 5
-    }
-    
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        let cell = tableView
-        return cell
-    }
-    
-    @IBOutlet weak var settingsTableView: UITableView!
+class SettingsViewController: UIViewController {
     
     
+    @IBOutlet weak var preferences: UIView!
     override func viewDidLoad() {
-        settingsTableView.delegate = self
-        settingsTableView.dataSource = self
         super.viewDidLoad()
+        preferences.isUserInteractionEnabled = true
+        
+        let preferencesPushed = UITapGestureRecognizer(target: self, action: #selector(self.preferencesPushed))
+        preferences.addGestureRecognizer(preferencesPushed)
     }
     
-    
+    @objc func preferencesPushed() {
+        let vc = PreferencesViewController()
+        self.present(vc, animated: true, completion: nil)
+    }
 }
 
