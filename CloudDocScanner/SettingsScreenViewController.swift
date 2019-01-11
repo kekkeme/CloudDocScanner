@@ -23,6 +23,7 @@ class SettingsViewController: UIViewController {
     @objc func preferencesPushed() {
         let vc = PreferencesViewController()
         self.present(vc, animated: true, completion: nil)
+    
     }
 }
 
