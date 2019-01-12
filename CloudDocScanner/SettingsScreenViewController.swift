@@ -12,18 +12,27 @@ class SettingsViewController: UIViewController {
     
     
     @IBOutlet weak var preferences: UIView!
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         preferences.isUserInteractionEnabled = true
         
         let preferencesPushed = UITapGestureRecognizer(target: self, action: #selector(self.preferencesPushed))
         preferences.addGestureRecognizer(preferencesPushed)
+        
     }
     
     @objc func preferencesPushed() {
-        let vc = PreferencesViewController()
-        self.present(vc, animated: true, completion: nil)
-    
+
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let second = main.instantiateViewController(withIdentifier: "PreferencesViewController")
+        self.present(second, animated: true, completion: nil)
+
+        let mainVC = MainScreenViewController()
+        let navVC: UINavigationController = UINavigationController(rootViewController: mainVC)
+        self.present(navVC, animated: true, completion: nil)
+        
     }
 }
 

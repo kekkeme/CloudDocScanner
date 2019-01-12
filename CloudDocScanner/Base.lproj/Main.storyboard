@@ -33,7 +33,7 @@
         <!--Main Screen View Controller-->
         <scene sceneID="s0x-yw-J8U">
             <objects>
-                <viewController id="fAb-n7-zUj" customClass="MainScreenViewController" customModule="CloudDocScanner" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainScreenViewController" id="fAb-n7-zUj" customClass="MainScreenViewController" customModule="CloudDocScanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KSu-9h-rKO">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -429,7 +429,6 @@
                     </view>
                     <connections>
                         <outlet property="preferences" destination="hYV-Mp-cp9" id="apL-GB-rNE"/>
-                        <segue destination="qAX-mS-NdS" kind="show" id="RjT-MW-yhq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aEV-C7-Krj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -445,7 +444,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M0d-tm-cXC" userLabel="Data">
-                                <rect key="frame" x="0.0" y="64" width="320" height="33"/>
+                                <rect key="frame" x="0.0" y="20" width="320" height="33"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rvt-56-4Rf" userLabel="Data">
                                         <rect key="frame" x="18" y="8" width="176" height="17"/>
@@ -475,7 +474,7 @@
                                 </constraints>
                             </view>
                             <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q6C-4e-SHe" userLabel="CellularData">
-                                <rect key="frame" x="0.0" y="97" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="53" width="320" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Allow Cellular Data Usage" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CFC-yx-91R" userLabel="CellularData">
                                         <rect key="frame" x="18" y="12.5" width="218" height="25"/>
@@ -506,7 +505,7 @@
                                 </constraints>
                             </view>
                             <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fHH-I2-a42" userLabel="TextRecognition">
-                                <rect key="frame" x="0.0" y="147" width="320" height="33"/>
+                                <rect key="frame" x="0.0" y="103" width="320" height="33"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text Recognition (OCR)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KSR-8f-JD4" userLabel="TextRecognition">
                                         <rect key="frame" x="18" y="5.5" width="148" height="22"/>
@@ -537,7 +536,7 @@
                                 </constraints>
                             </view>
                             <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i3T-By-fAf" userLabel="RunTextRecognition">
-                                <rect key="frame" x="0.0" y="180" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="136" width="320" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Run Text Recognition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVB-7r-Joa" userLabel="RunTextRecogniton">
                                         <rect key="frame" x="18" y="12.5" width="176" height="25"/>
@@ -577,7 +576,7 @@
                                 </constraints>
                             </view>
                             <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zv0-Wk-3i4" userLabel="TextRecognitionLanguage">
-                                <rect key="frame" x="0.0" y="230" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="186" width="320" height="50"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rightR" translatesAutoresizingMaskIntoConstraints="NO" id="aNc-gM-5sZ" userLabel="Button">
                                         <rect key="frame" x="288" y="14" width="22" height="22"/>
@@ -607,7 +606,7 @@
                                 </constraints>
                             </view>
                             <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Qy-Fp-ShN" userLabel="SaveImages">
-                                <rect key="frame" x="0.0" y="280" width="320" height="33"/>
+                                <rect key="frame" x="0.0" y="236" width="320" height="33"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Save Images" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z0m-zY-1il" userLabel="SaveImages">
                                         <rect key="frame" x="18" y="5.5" width="81" height="22"/>
@@ -635,7 +634,7 @@
                                 </constraints>
                             </view>
                             <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WN3-we-vsf" userLabel="SaveOriginals">
-                                <rect key="frame" x="0.0" y="313" width="320" height="50"/>
+                                <rect key="frame" x="0.0" y="269" width="320" height="50"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Save Originals to Photos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PGf-5y-g6l" userLabel="SaveOriginals">
                                         <rect key="frame" x="18" y="12.5" width="204" height="25"/>
@@ -706,10 +705,10 @@
             </objects>
             <point key="canvasLocation" x="4115.625" y="32.74647887323944"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Main Navigation Controller-->
         <scene sceneID="JUJ-pF-Mth">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kub-sU-Tvx" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="MainNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="Kub-sU-Tvx" customClass="MainNavigationController" customModule="CloudDocScanner" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="02D-06-Zpa">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>
