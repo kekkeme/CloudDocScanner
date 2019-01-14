@@ -29,6 +29,13 @@ class SettingsViewController: UIViewController {
         let second = main.instantiateViewController(withIdentifier: "PreferencesViewController")
         self.navigationController?.pushViewController(second, animated: true)
         
+        let yourBackImage = UIImage(named: "rightR")
+        self.navigationController?.navigationBar.backIndicatorImage = yourBackImage
+        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = yourBackImage
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+
+
+        
     }
     
     @IBAction func dismissSettings(_ sender: Any) {
