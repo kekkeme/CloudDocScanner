@@ -27,12 +27,12 @@ class SettingsViewController: UIViewController {
 
         let main = UIStoryboard(name: "Main", bundle: nil)
         let second = main.instantiateViewController(withIdentifier: "PreferencesViewController")
-        self.present(second, animated: true, completion: nil)
-
-        let mainVC = MainScreenViewController()
-        let navVC: UINavigationController = UINavigationController(rootViewController: mainVC)
-        self.present(navVC, animated: true, completion: nil)
+        self.navigationController?.pushViewController(second, animated: true)
         
+    }
+    
+    @IBAction func dismissSettings(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
     }
 }
 
