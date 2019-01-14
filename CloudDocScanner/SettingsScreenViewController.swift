@@ -29,12 +29,11 @@ class SettingsViewController: UIViewController {
         let second = main.instantiateViewController(withIdentifier: "PreferencesViewController")
         self.navigationController?.pushViewController(second, animated: true)
         
-        let yourBackImage = UIImage(named: "rightR")
-        self.navigationController?.navigationBar.backIndicatorImage = yourBackImage
-        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = yourBackImage
+        let backImage = UIImage(named: "leftR")
+        self.navigationController?.navigationBar.backIndicatorImage = backImage
+        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = backImage
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
-
-
+        navigationItem.backBarButtonItem?.tintColor = UIColor.black //When I type black, it gives me the correct color. When I type RGB colors which is 158, 155, 155, it shows up as white. ASK!
         
     }
     

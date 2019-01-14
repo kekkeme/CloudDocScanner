@@ -740,7 +740,6 @@
         <!--Navigation Controller-->
         <scene sceneID="49X-94-pbg">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="UXF-aS-mCw" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController storyboardIdentifier="SettingsNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="qRK-xX-pRw" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JMT-m0-Sqb">
@@ -752,6 +751,7 @@
                         <segue destination="mvA-dj-Mhh" kind="relationship" relationship="rootViewController" id="GMV-Rv-7SJ"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UXF-aS-mCw" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mNw-oi-vTs">
                     <rect key="frame" x="0.0" y="0.0" width="17" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>

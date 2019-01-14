@@ -63,6 +63,9 @@ class MainScreenViewController: UIViewController, UITableViewDelegate, UITableVi
         recentTableView.dataSource = self
         allScansTableView.delegate = self
         allScansTableView.dataSource = self
+        settings.image = UIImage(named: "settings")
+        settings.tintColor = UIColor.black
+
     }
     
     @IBOutlet weak var greenView: UIView!
@@ -73,6 +76,8 @@ class MainScreenViewController: UIViewController, UITableViewDelegate, UITableVi
     @IBOutlet weak var settings: UIBarButtonItem!
     var recents = ["PDF", "PDF2", "PDF3", "PDF4"]
     var all = ["1", "2", "3", "4", "5"]
+    
+    
     
     
     @IBAction func cameraPushed() {
@@ -97,7 +102,7 @@ class MainScreenViewController: UIViewController, UITableViewDelegate, UITableVi
         let main = UIStoryboard(name: "Main", bundle: nil)
         let second = main.instantiateViewController(withIdentifier: "SettingsNavigationController")
         self.present(second, animated: true, completion: nil)
-        
+                
     }
     
     
