@@ -102,7 +102,9 @@ class MainScreenViewController: UIViewController, UITableViewDelegate, UITableVi
         let main = UIStoryboard(name: "Main", bundle: nil)
         let second = main.instantiateViewController(withIdentifier: "SettingsNavigationController")
         self.present(second, animated: true, completion: nil)
-                
+        
+
+        
     }
     
     

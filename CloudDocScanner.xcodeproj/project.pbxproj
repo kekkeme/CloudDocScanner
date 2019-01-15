@@ -22,6 +22,7 @@
 		3886C48D21E6850B009B52C5 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3886C48C21E6850B009B52C5 /* OpenSans-Regular.ttf */; };
 		3886C48F21E76451009B52C5 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3886C48E21E76451009B52C5 /* PreferencesViewController.swift */; };
 		940FDF4DADE22562AAEDF1B8 /* Pods_CloudDocScannerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98685AB2F769E1568D5C78E5 /* Pods_CloudDocScannerUITests.framework */; };
+		CBE407B421EE96870091BBE7 /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE407B321EE96870091BBE7 /* MyAccountViewController.swift */; };
 		FAB4E2C5DB026222257CB906 /* Pods_CloudDocScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35D2B0B79B6F302A0FB4E0C /* Pods_CloudDocScanner.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		AC81B66095D513AB69B3F864 /* Pods-CloudDocScannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudDocScannerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudDocScannerUITests/Pods-CloudDocScannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C35D2B0B79B6F302A0FB4E0C /* Pods_CloudDocScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudDocScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B04B3C8D015D63DF862972 /* Pods_CloudDocScannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudDocScannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE407B321EE96870091BBE7 /* MyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				383FC94A21E1FE55007B6721 /* MainScreenViewController.swift */,
 				383FC94E21E22192007B6721 /* RecentTableView.swift */,
 				383FC95021E22473007B6721 /* AllScanTableView.swift */,
+				CBE407B321EE96870091BBE7 /* MyAccountViewController.swift */,
 			);
 			path = CloudDocScanner;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 			files = (
 				2E7C63AC21E1ED5200001221 /* ViewController.swift in Sources */,
 				383FC94D21E20B0C007B6721 /* SettingsScreenViewController.swift in Sources */,
+				CBE407B421EE96870091BBE7 /* MyAccountViewController.swift in Sources */,
 				2E7C63AA21E1ED5200001221 /* AppDelegate.swift in Sources */,
 				383FC94F21E22192007B6721 /* RecentTableView.swift in Sources */,
 				383FC95121E22473007B6721 /* AllScanTableView.swift in Sources */,
