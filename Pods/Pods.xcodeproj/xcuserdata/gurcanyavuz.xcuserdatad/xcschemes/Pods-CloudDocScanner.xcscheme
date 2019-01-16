@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD0FB5321884A5EA905ADEFAA9E21DAE"
+               BlueprintIdentifier = "B8A33255C7F3B4486FCA4D102BCC9EDD"
                BuildableName = "Pods_CloudDocScanner.framework"
                BlueprintName = "Pods-CloudDocScanner"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CD0FB5321884A5EA905ADEFAA9E21DAE"
+            BlueprintIdentifier = "B8A33255C7F3B4486FCA4D102BCC9EDD"
             BuildableName = "Pods_CloudDocScanner.framework"
             BlueprintName = "Pods-CloudDocScanner"
             ReferencedContainer = "container:Pods.xcodeproj">
