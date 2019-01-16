@@ -43,7 +43,7 @@ class SettingsViewController: UIViewController {
         self.navigationController?.navigationBar.backIndicatorImage = backImage
         self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = backImage
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
-        navigationItem.backBarButtonItem?.tintColor = UIColor.black //When I type black, it gives me the correct color. When I type RGB colors which is 158, 155, 155, it shows up as white. ASK!
+        navigationItem.backBarButtonItem?.tintColor = UIColor.black
         
     }
     
