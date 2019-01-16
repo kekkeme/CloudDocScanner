@@ -81,7 +81,10 @@ class MainScreenViewController: UIViewController, UITableViewDelegate, UITableVi
     
     
     @IBAction func cameraPushed() {
-    
+        let nav = UIStoryboard(name: "Camera", bundle: nil).instantiateViewController(withIdentifier: "CameraControllerNav")
+        
+        self.present(nav, animated: true, completion: nil)
+        
     }
     
     @IBAction func recentPushed() {
@@ -106,8 +109,4 @@ class MainScreenViewController: UIViewController, UITableViewDelegate, UITableVi
 
         
     }
-    
-    
 }
-
-
